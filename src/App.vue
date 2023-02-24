@@ -7,6 +7,13 @@
     <router-view/>
   </div>
 </template>
+<script>
+export default {
+  mounted(){
+    localStorage.setItem("language", 'en');
+  }
+}
+</script>
 
 <style lang="scss">
 #app{
