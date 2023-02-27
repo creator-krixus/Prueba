@@ -2,8 +2,10 @@
   <div class="NavBar">
     <img class="NavBar__logo" src="../assets/ayahuasca.jpeg" />
     <h2>Ayahuascamed</h2>
-    <img v-if="lang == 'en'" class="NavBar__flag" src="../assets/Flag_of_Colombia.svg.webp" @click="changeLangEs()"/>
-    <img v-if="lang == 'es'" class="NavBar__flag" src="../assets/Flag_of_the_United_States.svg.webp" @click="changeLangEn()"/>
+    <div class="NavBar__language">
+      <img v-if="lang == 'en'" class="NavBar__language--flag" src="../assets/Flag_of_the_United_States.svg.webp" @click="changeLangEs()"/>
+      <img v-if="lang == 'es'" class="NavBar__language--flag" src="../assets/Flag_of_Colombia.svg.webp" @click="changeLangEn()"/>
+    </div>
   </div>
 </template>
 
@@ -42,11 +44,14 @@ export default {
     width:60px;
     border-radius: 50%
     }
-    &__flag{
-      width:45px;
-      height:45px;
-      margin: 10px 0px 0px 30px;
-      border-radius: 50%;
+    &__language{
+      width: 100%;
+      &--flag{
+        width:40px;
+        height:40px;
+        margin: 10px 0px 0px 30px;
+        border-radius: 50%;
+    }
     }
 }
 
