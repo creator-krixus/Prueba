@@ -5,6 +5,7 @@
     <Call />
     <Benefits />
     <Testimonie />
+    <BtnInstagram class="btnInstagram"/>
     <Btn class="btn"/>
   </div>
 </template>
@@ -18,6 +19,7 @@ import Call from '@/components/CallToAction.vue'
 import Btn from '../components/BtnWhatsapp.vue'
 import Benefits from '../components/BenefitsAyahuasca.vue'
 import Testimonie from '../components/Testimonies.vue'
+import BtnInstagram from '../components/BtnInstagram.vue'
 
 
 export default {
@@ -28,7 +30,8 @@ export default {
     Call,
     Btn,
     Benefits,
-    Testimonie
+    Testimonie,
+    BtnInstagram
   }
 }
 </script>
@@ -39,6 +42,11 @@ export default {
   .btn{
     position: fixed;
     bottom: 2%;
+    right: 2.5%;
+  }
+  .btnInstagram{
+    position: fixed;
+    bottom: 13%;
     right: 2.5%;
   }
 }
