@@ -1,6 +1,6 @@
 <template>
     <div class="Testimonies">
-        <h1 class="Testimonies__title">Experiencias Ayahuascamed</h1>
+        <h3 class="Testimonies__title">Experiencias Ayahuascamed</h3>
         <div class="Testimonies__container">
             <div class="Testimonies__container--experience">
                 <img class="Testimonies__container--image" src="../assets/marcela.jpg" alt="">
