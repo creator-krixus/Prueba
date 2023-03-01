@@ -45,7 +45,7 @@ export default {
 .ceremony{
     background: #a6aa92;
     margin-top: -20px;
-    height: 380px;
+    height: 400px;
     padding: 3% 5%;
     &__title{
         text-align: center;
