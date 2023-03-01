@@ -5,6 +5,8 @@
     <Call />
     <Benefits />
     <Testimonie />
+    <Ceremony />
+    <Suscription />
     <BtnInstagram class="btnInstagram"/>
     <Btn class="btn"/>
   </div>
@@ -20,6 +22,8 @@ import Btn from '../components/BtnWhatsapp.vue'
 import Benefits from '../components/BenefitsAyahuasca.vue'
 import Testimonie from '../components/Testimonies.vue'
 import BtnInstagram from '../components/BtnInstagram.vue'
+import Ceremony from '../components/Ceremony.vue'
+import Suscription from '../components/Suscription.vue'
 
 
 export default {
@@ -31,7 +35,9 @@ export default {
     Btn,
     Benefits,
     Testimonie,
-    BtnInstagram
+    BtnInstagram,
+    Ceremony,
+    Suscription
   }
 }
 </script>

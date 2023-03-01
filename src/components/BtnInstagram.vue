@@ -1,6 +1,6 @@
 <template>
     <div class="Instagram">
-        <a href="https://www.instagram.com/ayahuasca.med.co/?igshid=ZDdkNTZiNTM%3D">
+        <a href="https://instagram.com/ayahuascamed.co?igshid=ZDdkNTZiNTM=">
             <font-awesome-icon icon="fa-brands fa-instagram" class="Instagram__icon"/>
         </a>
     </div>
