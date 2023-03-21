@@ -53,13 +53,13 @@ export default {
   height: 100vh;
   .btn{
     position: fixed;
-    bottom: 2%;
-    right: 2.5%;
+    bottom: 7%;
+    right: 8.5%;
   }
   .btnInstagram{
     position: fixed;
-    bottom: 13%;
-    right: 2.5%;
+    bottom: 17%;
+    right: 8.5%;
   }
 }
 </style>
