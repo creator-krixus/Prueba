@@ -76,6 +76,7 @@ export default {
 .Testimonies{
     background: #f1eae2;
     padding-bottom: 10px;
+    padding-top: 10px;
     &__title{
         text-align: center;
     }

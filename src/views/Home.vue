@@ -3,10 +3,12 @@
     <NavBar />
     <Main />
     <Call />
-    <Benefits />
+    <Carousel />
     <Testimonie />
+    <Benefits />
     <Ceremony />
     <Suscription />
+    <Contact />
     <BtnInstagram class="btnInstagram"/>
     <Btn class="btn"/>
   </div>
@@ -24,6 +26,8 @@ import Testimonie from '../components/Testimonies.vue'
 import BtnInstagram from '../components/BtnInstagram.vue'
 import Ceremony from '../components/Ceremony.vue'
 import Suscription from '../components/Suscription.vue'
+import Carousel from '../components/Carousel.vue'
+import Contact from '../components/Contactanos.vue'
 
 
 export default {
@@ -33,11 +37,13 @@ export default {
     NavBar,
     Call,
     Btn,
+    Carousel,
     Benefits,
     Testimonie,
     BtnInstagram,
     Ceremony,
-    Suscription
+    Suscription,
+    Contact
   }
 }
 </script>
