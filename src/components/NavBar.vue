@@ -1,6 +1,6 @@
 <template>
   <div class="NavBar">
-    <img class="NavBar__logo" src="../assets/ayahuasca.jpeg" />
+    <img class="NavBar__logo" src="../assets/ayahuasca.jpeg" alt="ayahuascamed"/>
     <h2>Ayahuascamed</h2>
     <div class="NavBar__language">
       <img v-if="lang == 'en'" class="NavBar__language--flag" src="../assets/Flag_of_the_United_States.svg.webp" @click="changeLangEs()"/>

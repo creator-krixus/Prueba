@@ -1,6 +1,6 @@
 <template>
     <div class="Suscription">
-        <img class="Suscription__image" src="../assets/ayahuasca.webp"/>
+        <img class="Suscription__image" src="../assets/ayahuasca.webp" alt="ayahuascamed"/>
     </div>
 </template>
 <script>

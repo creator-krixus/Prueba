@@ -5,7 +5,7 @@
         <div class="Testimonies__container">
             <div class="Testimonies__container--experience">
                 <h3>Bella Smith</h3>
-                <img class="Testimonies__container--image" src="../assets/marcela (1).jpg" alt="">
+                <img class="Testimonies__container--image" src="../assets/marcela (1).jpg" alt="ayahuascamed">
                 <div class="Testimonies__container--stars">
                     <font-awesome-icon icon="fa-solid fa-star" class="icon__star"/>
                     <font-awesome-icon icon="fa-solid fa-star" class="icon__star"/>
@@ -24,7 +24,7 @@
             </div>
             <div class="Testimonies__container--experience">
                 <h3>Jhon Pelletier</h3>
-                <img class="Testimonies__container--image" src="../assets/Jhon (1).jpg" alt="">
+                <img class="Testimonies__container--image" src="../assets/Jhon (1).jpg" alt="ayahuascamed">
                 <div class="Testimonies__container--stars">
                     <font-awesome-icon icon="fa-solid fa-star" class="icon__star"/>
                     <font-awesome-icon icon="fa-solid fa-star" class="icon__star"/>
@@ -41,7 +41,7 @@
             </div>
             <div class="Testimonies__container--experience">
                 <h3>Marcus Green</h3>
-                <img class="Testimonies__container--image" src="../assets/Marcus (1).jpg" alt="">
+                <img class="Testimonies__container--image" src="../assets/Marcus (1).jpg" alt="ayahuascamed">
                 <div class="Testimonies__container--stars">
                     <font-awesome-icon icon="fa-solid fa-star" class="icon__star"/>
                     <font-awesome-icon icon="fa-solid fa-star" class="icon__star"/>
