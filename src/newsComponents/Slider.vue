@@ -1,10 +1,14 @@
 <template>
     <div class="Slider">
-        <h1 class="Slider__title">Comunícate con nosotros</h1>
+        <h1 v-if="lang === 'es'" class="Slider__title">Comunícate con nosotros</h1>
+        <h1 v-if="lang === 'en'" class="Slider__title">Contact us</h1>
         <img class="Slider__image" src="../assets/ayahuasca_cocorna.webp" alt="ayahuasca_cocorna">
-        <h2 class="Slider__subtitle">O, aún mejor, ¡ven a visitarnos!</h2>
-        <p class="Slider__text">Nos encanta recibir a nuestros clientes, así que ven en cualquier
+        <h2 v-if="lang === 'es'" class="Slider__subtitle">O, aún mejor, ¡ven a visitarnos!</h2>
+        <h2 v-if="lang === 'en'" class="Slider__subtitle">Or, even better, come visit us!</h2>
+        <p v-if="lang === 'es'" class="Slider__text">Nos encanta recibir a nuestros clientes, así que ven en cualquier
              momento durante las horas de oficina.</p>
+         <p v-if="lang === 'en'" class="Slider__text">We love receiving our clients, so come anytime.
+              time during office hours.</p>     
     </div>
 </template>
 <script>
