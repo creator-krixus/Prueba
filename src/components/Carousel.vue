@@ -1,6 +1,5 @@
 <template>
   <div class="Carousel">
-    <h2 class="Carousel__title">Colección de imágenes</h2>
     <VueSlickCarousel v-bind="settings">
       <img class="Carousel__image" src="../assets/galeria/agua.jpeg" alt="ayahuascamed"/>
       <img class="Carousel__image" src="../assets/galeria/arbol.jpeg" alt="ayahuascamed"/>

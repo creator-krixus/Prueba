@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faWhatsapp, faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faWhatsapp, faStar, faInstagram)
+library.add(faWhatsapp, faStar, faInstagram, faTiktok)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
