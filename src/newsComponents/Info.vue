@@ -81,7 +81,8 @@ export default {
     background-color: rgb(9, 69, 50);
     text-align: center;
     height: 1750px;
-    &__image{    
+    &__image{   
+        margin-top: 9%; 
         width: 90%;
         border-radius: 10px;
     }

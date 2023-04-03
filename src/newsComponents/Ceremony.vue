@@ -19,7 +19,7 @@
              visions and teachings.
              At the closing of the ceremony, an energetic cleansing with plants will be carried out.
              traditional to all participants.</p>   
-                <a v-if="lang === 'en'" class="Home__whatsapp" href="https://wa.me/+573001782914?text=Hello, I would like to live the Ayahuasca experience.">Get more information</a>       
+        <a v-if="lang === 'en'" class="Home__whatsapp" href="https://wa.me/+573001782914?text=Hello, I would like to live the Ayahuasca experience.">Get more information</a>       
         <a v-if="lang === 'es'" class="Home__whatsapp" href="https://wa.me/+573001782914?text=Hola, me gustaria vivir la experiencia Ayahuasca.">Obten mas información</a>      
     </div>
 </template>
@@ -41,9 +41,13 @@ export default {
     width: 100%;
     background-color: rgb(9, 69, 50);
     text-align: center;
-    height: 900px;
+    height: 990px;
+    &__image{
+        margin-top: 6%;
+    }
     &__title, &__text{
         color: #fff;
+        margin-bottom: 35px;
     }
     &__text{
         text-align: left;

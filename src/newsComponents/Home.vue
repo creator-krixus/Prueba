@@ -1,6 +1,6 @@
 <template>
     <div class="Home">
-        <img class="Home__image" src="../assets/logo.webp" alt="">
+        <img class="Home__image" src="../assets/logo.webp" alt="Ayahuascamed">
         <h1 v-if="lang === 'en'" class="Home__title">Welcome to ayahuascamed</h1>
         <p v-if="lang === 'en'" class="Home_text">We are delighted to receive you and be part of this
               wonderful process of opening heart and conscience. We're very pleased

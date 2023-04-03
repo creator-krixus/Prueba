@@ -39,6 +39,7 @@ export default {
     text-align: center;
     height: 700px;
     &__image{
+        margin-top: 3%;
         width: 90%;
         border-radius: 10px;
     }

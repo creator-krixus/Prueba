@@ -3,11 +3,14 @@
         <h1 class="Footer__title">Ayahuascamed</h1>
         <h2 class="Footer__subtitle">Cocorná, Antioquia, Colombia</h2>
         <div class="Footer__networks">
-            <a class="Footer__networks--icon" href="https://instagram.com/ayahuascamed.co?igshid=ZDdkNTZiNTM=">
+            <a class="Footer__networks--icon" href="https://instagram.com/ayahuasca_med?igshid=ZDdkNTZiNTM=">
                 <font-awesome-icon icon="fa-brands fa-instagram" class="icono"/>
             </a>
-            <a  class="Footer__networks--icon" href="https://instagram.com/ayahuascamed.co?igshid=ZDdkNTZiNTM=">
+            <!-- <a  class="Footer__networks--icon" href="https://instagram.com/ayahuascamed.co?igshid=ZDdkNTZiNTM=">
                 <font-awesome-icon icon="fa-brands fa-tiktok" class="icono"/>
+            </a> -->
+            <a  class="Footer__networks--icon" href="https://www.facebook.com/profile.php?id=100090401385103&mibextid=ZbWKwL">
+                <font-awesome-icon icon="fa-brands fa-facebook-f" class="icono"/>
             </a>
             <a v-if="lang === 'en'" class="Footer__networks--icon" href="https://wa.me/+573001782914?text=Hello, I would like to live the Ayahuasca experience.">
                 <font-awesome-icon icon="fa-brands fa-whatsapp" class="icono"/>
@@ -16,7 +19,8 @@
                 <font-awesome-icon icon="fa-brands fa-whatsapp" class="icono"/>
             </a> 
         </div>
-        <p class="Footer__subtitle">Copyright © 2023 Ayahuascamed - Todos los derechos reservados.</p>
+        <p class="Footer__subtitle" v-if="lang === 'es'">Copyright © 2023 Ayahuascamed - Todos los derechos reservados.</p>
+        <p class="Footer__subtitle" v-if="lang === 'en'">Copyright © 2023 Ayahuascamed - All rights reserved.</p>
     </div>
 </template>
 <script>

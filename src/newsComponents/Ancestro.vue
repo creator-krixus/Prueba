@@ -10,11 +10,14 @@
         <a v-if="lang === 'en'" class="Home__whatsapp" href="https://wa.me/+573001782914?text=Hello, I would like to live the Ayahuasca experience.">Get more information</a>       
         <a v-if="lang === 'es'" class="Home__whatsapp" href="https://wa.me/+573001782914?text=Hola, me gustaria vivir la experiencia Ayahuasca.">Obten mas información</a>       
         <div class="Ancestro__networks">
-            <a class="Ancestro__networks--icon" href="https://instagram.com/ayahuascamed.co?igshid=ZDdkNTZiNTM=">
+            <a class="Ancestro__networks--icon" href="https://instagram.com/ayahuasca_med?igshid=ZDdkNTZiNTM=">
                 <font-awesome-icon icon="fa-brands fa-instagram" class="icono"/>
             </a>
-            <a class="Ancestro__networks--icon" href="https://instagram.com/ayahuascamed.co?igshid=ZDdkNTZiNTM=">
+            <!-- <a class="Ancestro__networks--icon" href="https://instagram.com/ayahuascamed.co?igshid=ZDdkNTZiNTM=">
                 <font-awesome-icon icon="fa-brands fa-tiktok" class="icono"/>
+            </a> -->
+            <a class="Ancestro__networks--icon" href="https://www.facebook.com/profile.php?id=100090401385103&mibextid=ZbWKwL">
+                <font-awesome-icon icon="fa-brands fa-facebook-f" class="icono"/>
             </a>
         </div>
     </div>

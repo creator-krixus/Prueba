@@ -7,8 +7,11 @@
         <h2 v-if="lang === 'en'" class="Slider__subtitle">Or, even better, come visit us!</h2>
         <p v-if="lang === 'es'" class="Slider__text">Nos encanta recibir a nuestros clientes, así que ven en cualquier
              momento durante las horas de oficina.</p>
-         <p v-if="lang === 'en'" class="Slider__text">We love receiving our clients, so come anytime.
-              time during office hours.</p>     
+        <p v-if="lang === 'en'" class="Slider__text">We love receiving our clients, so come anytime.
+              time during office hours.</p> 
+        <a v-if="lang === 'es'" href="https://maps.app.goo.gl/AefEea377xbbmc2e7" class="Slider__location"><font-awesome-icon icon="fa-solid fa-location-dot" class="icono"/>       Encuentranos en Maps</a>          
+        <a v-if="lang === 'en'" href="https://maps.app.goo.gl/AefEea377xbbmc2e7" class="Slider__location"><font-awesome-icon icon="fa-solid fa-location-dot" class="icono"/>       Find us on Maps</a>
+    
     </div>
 </template>
 <script>
@@ -30,7 +33,8 @@ export default {
     width: 100%;
     background-color: rgb(9, 69, 50);
     text-align: center;
-    padding: 1% 0 2% 0;
+    padding: 1% 0 7% 0;
+    height: max-content;
     &__image{
         width: 100%;
     }
@@ -46,6 +50,14 @@ export default {
         padding: 0 4%;
         font-size: 20px;
         font-family: 'Source Sans Pro', arial, sans-serif;
+    }
+    &__location{
+        margin-top: 2%;
+        border: 3px solid #fff;
+        padding: 2.5%;
+        border-radius: 6px;
+        color: #fff;
+        text-decoration: none;
     }
 }
 </style>

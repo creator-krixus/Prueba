@@ -10,6 +10,7 @@
     <Suscription />
     <Contact /> -->
     <NewHome />
+    <BtnLanguage class="btnLanguage"/>
     <Ancestral />
     <About />
     <Info />
@@ -21,6 +22,7 @@
     <Footer />
     <BtnInstagram class="btnInstagram"/>
     <Btn class="btn"/>
+    <BtnFacebook class="btnFacebook"/>
   </div>
 </template>
 
@@ -47,6 +49,8 @@ import Diet from '../newsComponents/Diet.vue'
 import Plans from '../newsComponents/Plans.vue'
 import Slider from '../newsComponents/Slider.vue'
 import Footer from '../newsComponents/Footer.vue'
+import BtnLanguage from '../newsComponents/BtnLanguage.vue'
+import BtnFacebook from '../newsComponents/BtnFacebook.vue'
 
 
 export default {
@@ -61,6 +65,7 @@ export default {
     // Ceremony,
     // Suscription,
     // Contact
+    BtnLanguage,
     NewHome,
     Ancestral,
     About,
@@ -72,6 +77,7 @@ export default {
     Footer,
     Btn,
     BtnInstagram,
+    BtnFacebook
   }
 }
 </script>
@@ -85,6 +91,15 @@ export default {
     right: 2.5%;
   }
   .btnInstagram{
+    position: fixed;
+    bottom: 27%;
+    right: 2.5%;
+  }
+  .btnLanguage{
+    top: 2.6%;
+    right: 3.5%;
+  }
+  .btnFacebook{
     position: fixed;
     bottom: 17%;
     right: 2.5%;
